@@ -1,7 +1,7 @@
-const Total = ({exercises})=>{
+const Total = ({parts})=>{
     return(
         <div>
-            <p>Number of exercises {exercises[0] + exercises[1] + exercises[2]}</p>
+            <p>Number of exercises {parts[0].exercises + parts[1].exercises + parts[2].exercises}</p>
         </div>
     )
 }
